@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WartegChart",
-    "slug": "WartegChart",
+    "name": "WarungChart",
+    "slug": "WarungChart",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#E5B21A"
     },
     "ios": {
       "supportsTablet": true
@@ -18,8 +18,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#E5B21A"
+      },
+      "package": "com.ahmadmcer.WarungChart"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4fc9744d-0909-431a-bacd-dcb2ac9a69e1"
+      }
     }
   }
 }
